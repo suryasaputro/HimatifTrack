@@ -7,30 +7,29 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
 
 ## 🚀 Fitur Aplikasi HimatifTrack
 
-- 📝 **Input Data Anggota Secara Lengkap**
-  Pengguna dapat mengisi formulir lengkap data anggota, mulai dari **Nama, NIM, Angkatan, Email, Tanggal Lahir, Jenis Kelamin, Hobi**, hingga **Alamat**, yang seluruhnya tertata dengan baik dan mudah diakses.
+- **Input Data Anggota Secara Lengkap**  
+  Pengguna dapat mengisi formulir lengkap data anggota, mulai dari **Nama, NIM, Angkatan, Email, Tanggal Lahir, Jenis Kelamin, Alamat**, hingga **Hobi**, yang seluruhnya tertata dengan baik dan mudah diakses.
 
-- 🔽 **Dropdown Pintar untuk Angkatan & Gender**
+- **Dropdown Pintar untuk Angkatan & Gender**  
   Menggunakan komponen **MaterialAutoCompleteTextView**, pengguna dapat memilih **angkatan** (dari tahun 2015 hingga 2025) dan **jenis kelamin** melalui dropdown yang interaktif dan responsif.
 
-- 📅 **Date Picker untuk Tanggal Lahir**
-   Input tanggal lahir dilengkapi dengan komponen **DatePickerDialog** sehingga pengguna dapat memilih tanggal dengan lebih praktis dan menghindari kesalahan penulisan format.
+- **Date Picker untuk Tanggal Lahir**  
+  Input tanggal lahir dilengkapi dengan komponen **DatePickerDialog** sehingga pengguna dapat memilih tanggal dengan lebih praktis dan menghindari kesalahan penulisan format.
 
-- ✅ **Validasi Otomatis**
-   Sistem akan secara otomatis memeriksa apakah semua kolom yang wajib diisi sudah lengkap, serta memastikan **format email valid** sebelum data disimpan. Ini mencegah input kosong atau salah.
+- **Validasi Otomatis**  
+  Sistem akan secara otomatis memeriksa apakah semua kolom yang wajib diisi sudah lengkap, serta memastikan **format email valid** sebelum data disimpan. Ini mencegah input kosong atau salah.
 
-- 💾 **Penyimpanan Data Lokal (Offline)**
-   Data anggota yang diinput akan langsung disimpan menggunakan **SQLite database lokal**, sehingga aplikasi dapat digunakan **tanpa koneksi internet** dan tetap menyimpan data dengan aman.
+- **Penyimpanan Data Lokal (Offline)**  
+  Data anggota yang diinput akan langsung disimpan menggunakan **SQLite database lokal**, sehingga aplikasi dapat digunakan **tanpa koneksi internet** dan tetap menyimpan data dengan aman.
 
-- 🔍 **Kelola Data Anggota**
-   Pengguna dapat menampilkan daftar seluruh anggota yang telah diinput, lalu melakukan aksi **ubah data (edit)** atau **hapus data** secara langsung melalui daftar.
+- **Kelola Data Anggota**  
+  Pengguna dapat menampilkan daftar seluruh anggota yang telah diinput, lalu melakukan aksi **ubah data (edit)** atau **hapus data** secara langsung melalui daftar.
 
-- ✨ **Animasi Transisi yang Halus**
-   Navigasi antar tampilan (form, daftar, detail) menggunakan **efek transisi Zoom & Fade**, memberikan pengalaman pengguna yang lebih modern dan nyaman digunakan.
+- **Animasi Transisi yang Halus**  
+  Navigasi antar tampilan (form, daftar, detail) menggunakan **efek transisi Zoom & Fade**, memberikan pengalaman pengguna yang lebih modern dan nyaman digunakan.
 
-- 🎨 **Desain UI Modern & Konsisten**
-   Menggunakan **Material Design** dan font khusus **Comfortaa**, tampilan aplikasi terlihat profesional, ringan, dan tetap ramah untuk semua pengguna.
-
+- **Desain UI Modern & Konsisten**  
+  Menggunakan **Material Design** dan font khusus **Comfortaa**, tampilan aplikasi terlihat profesional, ringan, dan tetap ramah untuk semua pengguna.
 
 ---
 
