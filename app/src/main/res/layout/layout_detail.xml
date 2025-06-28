@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- HEADER: GANTI RelativeLayout DENGAN MaterialCardView -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/headerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/himatif_background"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:id="@+id/listDataContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvHeaderNama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Mahasiswa"
+                    android:fontFamily="@font/comfortaa_regular"
+                    android:textAlignment="center"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/tvHeaderNIM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NIM"
+                    android:fontFamily="@font/comfortaa_regular"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textColor="#EEEEEE"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- DETAIL -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView android:id="@+id/tvEmailLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Email:" android:fontFamily="@font/comfortaa_bold" android:textStyle="bold" />
+            <TextView android:id="@+id/tvEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" />
+
+            <TextView android:id="@+id/tvTTLLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tempat, Tanggal Lahir:" android:fontFamily="@font/comfortaa_bold" android:textStyle="bold" />
+            <TextView android:id="@+id/tvTTL" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" />
+
+            <TextView android:id="@+id/tvGenderLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Jenis Kelamin:" android:fontFamily="@font/comfortaa_bold" android:textStyle="bold" />
+            <TextView android:id="@+id/tvGender" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" />
+
+            <TextView android:id="@+id/tvAngkatanLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tahun Angkatan:" android:fontFamily="@font/comfortaa_bold" android:textStyle="bold" />
+            <TextView android:id="@+id/tvAngkatan" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" />
+
+            <TextView android:id="@+id/tvHobiLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Hobi:" android:fontFamily="@font/comfortaa_bold" android:textStyle="bold" />
+            <TextView android:id="@+id/tvHobi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" />
+
+            <TextView android:id="@+id/tvAlamatLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Alamat:" android:fontFamily="@font/comfortaa_bold" android:textStyle="bold" />
+            <TextView android:id="@+id/tvAlamat" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- TOMBOL AKSI -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="24dp">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Ubah"
+                android:backgroundTint="@color/himatif_background"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp" />
+
+            <Button
+                android:id="@+id/btnHapus"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Hapus"
+                android:backgroundTint="@color/himatif_background"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardMahasiswa"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="26dp"
+    android:layout_marginEnd="26dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp"
+    android:elevation="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="18dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="6dp">
+
+        <!-- Foto Profil -->
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingRight="2dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/school"
+            android:scaleType="centerCrop"
+            android:contentDescription="Foto Mahasiswa" />
+
+        <!-- Kontainer Teks: Nama + NIM -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imgFoto"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Mahasiswa"
+                android:textSize="14sp"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"
+                android:fontFamily="@font/comfortaa_bold" />
+
+            <TextView
+                android:id="@+id/tvNIM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="NIM Mahasiswa"
+                android:textSize="11sp"
+                android:textColor="?android:textColorSecondary"
+                android:fontFamily="@font/comfortaa_regular" />
+        </LinearLayout>
+
+        <!-- Tombol Edit -->
+        <ImageView
+            android:id="@+id/btnEdit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+            android:src="@drawable/arrow_simple"
+            android:contentDescription="Edit Data" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

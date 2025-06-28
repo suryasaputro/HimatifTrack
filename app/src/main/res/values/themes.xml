@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HimatifTrack" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Warna utama -->
+        <item name="colorPrimary">@color/himatif_background</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Warna biru untuk border saat fokus -->
+        <item name="colorControlActivated">@color/blue_500</item>
+
+        <!-- Text field / surface -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+
+        <!-- Default font family -->
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+        <item name="fontFamily">@font/comfortaa_regular</item>
+        <item name="colorOutline">#D0D0D0</item> <!-- abu terang -->
+
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/dark_gray</item>
+
+    </style>
+</resources>

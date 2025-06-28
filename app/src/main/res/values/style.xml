@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Label Kecil -->
+    <style name="FormLabelSmall">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <!-- EditText Kecil -->
+    <style name="FormEditTextSmall">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:paddingHorizontal">12dp</item>
+    </style>
+
+    <!-- TextInputLayout Outline Box -->
+    <style name="FormInputBox" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+</resources>

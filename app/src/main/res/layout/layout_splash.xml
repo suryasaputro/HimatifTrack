@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/himatif_background">
+
+    <!-- Logo aplikasi di atas background -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@mipmap/ic_launcher_foreground"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Judul dengan border -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <!-- Border teks -->
+        <TextView
+            android:id="@+id/textOutline"
+            android:text="HimatifTrack"
+            android:textSize="32sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/comfortaa_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2" />
+
+        <!-- Teks utama -->
+        <TextView
+            android:id="@+id/textMain"
+            android:text="HimatifTrack"
+            android:textSize="32sp"
+            android:textColor="#DDDDDD"
+            android:textStyle="bold"
+            android:fontFamily="@font/comfortaa_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <!-- Credit di bawah -->
+    <TextView
+        android:id="@+id/textCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created by Surya"
+        android:textColor="#BBBBBB"
+        android:textSize="14sp"
+        android:fontFamily="@font/comfortaa_regular" />
+
+</LinearLayout>

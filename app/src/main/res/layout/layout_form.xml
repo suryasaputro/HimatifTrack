@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- FIXED HEADER -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/headerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="0dp"
+        app:strokeWidth="0dp"
+        app:cardBackgroundColor="@color/himatif_background"
+        app:cardPreventCornerOverlap="false">
+
+        <TextView
+            android:id="@+id/tvMainTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Input Data Mahasiswa"
+            android:fontFamily="@font/comfortaa_bold"
+            android:textAlignment="center"
+            android:textColor="#FDF9FC"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:contentDescription="Form Input Data Mahasiswa" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- SCROLLABLE CONTENT -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+            <!-- FORM INPUT -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="16dp"
+                android:paddingBottom="16dp">
+
+                <!-- NAMA -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textStyle="bold"
+                    android:text="Nama"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="12sp"
+                    android:contentDescription="Label Nama" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:hintEnabled="false">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editNama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comfortaa_regular"
+                        android:hint="Masukkan nama"
+                        android:padding="12dp"
+                        android:textSize="13sp"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:nextFocusForward="@+id/editNIM"
+                        android:contentDescription="Input Nama" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- NIM -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textStyle="bold"
+                    android:text="NIM"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="12sp"
+                    android:contentDescription="Label NIM" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:hintEnabled="false">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editNIM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comfortaa_regular"
+                        android:hint="Masukkan NIM"
+                        android:padding="12dp"
+                        android:textSize="13sp"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:nextFocusForward="@+id/dropdownAngkatan"
+                        android:contentDescription="Input NIM" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Tahun Angkatan -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textStyle="bold"
+                    android:text="Tahun Angkatan"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="12sp"
+                    android:contentDescription="Label Tahun Angkatan" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:hintEnabled="false">
+
+                    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                        android:id="@+id/dropdownAngkatan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comfortaa_regular"
+                        android:hint="Masukkan tahun angkatan"
+                        android:inputType="none"
+                        android:paddingHorizontal="12dp"
+                        android:paddingVertical="12dp"
+                        android:textSize="13sp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:imeOptions="actionNext"
+                        android:nextFocusForward="@+id/editEmail"
+                        android:contentDescription="Pilih Tahun Angkatan" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Email -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textStyle="bold"
+                    android:text="Email"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="12sp"
+                    android:contentDescription="Label Email" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:hintEnabled="false">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comfortaa_regular"
+                        android:hint="Masukkan email"
+                        android:inputType="textEmailAddress"
+                        android:padding="12dp"
+                        android:textSize="13sp"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:nextFocusForward="@+id/editTempatLahir"
+                        android:contentDescription="Input Email" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Jenis Kelamin -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textStyle="bold"
+                    android:text="Jenis Kelamin"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="12sp"
+                    android:contentDescription="Label Jenis Kelamin" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:hintEnabled="false">
+
+                    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                        android:id="@+id/dropdownGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comfortaa_regular"
+                        android:hint="Masukkan jenis kelamin"
+                        android:inputType="none"
+                        android:paddingHorizontal="12dp"
+                        android:paddingVertical="12dp"
+                        android:textSize="13sp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:imeOptions="actionNext"
+                        android:nextFocusForward="@+id/editAlamat"
+                        android:contentDescription="Pilih Jenis Kelamin" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Tempat Lahir -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textStyle="bold"
+                    android:text="Tempat Lahir"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="12sp"
+                    android:contentDescription="Label Tempat Lahir" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:hintEnabled="false">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTempatLahir"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comfortaa_regular"
+                        android:hint="Masukkan tempat lahir"
+                        android:padding="12dp"
+                        android:textSize="13sp"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:nextFocusForward="@+id/editTanggalLahir"
+                        android:contentDescription="Input Tempat Lahir" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Tanggal Lahir -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textStyle="bold"
+                    android:text="Tanggal Lahir"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="12sp"
+                    android:contentDescription="Label Tanggal Lahir" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:hintEnabled="false">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTanggalLahir"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comfortaa_regular"
+                        android:hint="Masukkan tanggal lahir"
+                        android:padding="12dp"
+                        android:textSize="13sp"
+                        android:singleLine="true"
+                        android:focusable="false"
+                        android:clickable="true"
+                        android:inputType="none"
+                        android:drawableEnd="@drawable/calendar_month"
+                        android:drawablePadding="8dp"
+                        android:imeOptions="actionNext"
+                        android:nextFocusForward="@+id/editHobi"
+                        android:contentDescription="Pilih Tanggal Lahir" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Hobi -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textStyle="bold"
+                    android:text="Hobi"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="12sp"
+                    android:contentDescription="Label Hobi" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:hintEnabled="false">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editHobi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comfortaa_regular"
+                        android:hint="Masukkan hobi"
+                        android:padding="12dp"
+                        android:textSize="13sp"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:nextFocusForward="@+id/editAlamat"
+                        android:contentDescription="Input Hobi" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Alamat -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textStyle="bold"
+                    android:text="Alamat"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="12sp"
+                    android:contentDescription="Label Alamat" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:hintEnabled="false">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editAlamat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comfortaa_regular"
+                        android:gravity="top|start"
+                        android:hint="Masukkan alamat"
+                        android:inputType="textMultiLine"
+                        android:minLines="3"
+                        android:padding="12dp"
+                        android:textSize="13sp"
+                        android:imeOptions="actionDone"
+                        android:contentDescription="Input Alamat" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Tombol Simpan -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSimpan"
+                    style="@style/Widget.Material3.Button.ElevatedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="16dp"
+                    android:padding="12dp"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:text="Simpan Data"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    app:cornerRadius="24dp"
+                    app:backgroundTint="@color/himatif_background"
+                    android:contentDescription="Tombol Simpan Data" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
