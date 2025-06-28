@@ -22,7 +22,7 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
 ## 📸 Cuplikan Tampilan
 1. Halaman Menu Utama
 <p align="center">
-  <img src="(https://github.com/user-attachments/assets/3f50be48-1542-4343-ab7f-2256affb361b"
+  <img src="https://github.com/user-attachments/assets/3f50be48-1542-4343-ab7f-2256affb361b"
        width="300"
        style="border-radius: 16px;" />
 </p>
@@ -36,7 +36,7 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
 [<p align="center">
   <img src="https://github.com/user-attachments/assets/77e6933c-a189-4e58-8dc1-82d07efe995c"
        width="250"
-       style="border-radius: 12px;" />
+       style="border-radius: 16px;" />
 </p>
 ---
 
