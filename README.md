@@ -25,12 +25,6 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
 - **Kelola Data Anggota**  
   Pengguna dapat menampilkan daftar seluruh anggota yang telah diinput, lalu melakukan aksi **ubah data (edit)** atau **hapus data** secara langsung melalui daftar.
 
-- **Animasi Transisi yang Halus**  
-  Navigasi antar tampilan (form, daftar, detail) menggunakan **efek transisi Zoom & Fade**, memberikan pengalaman pengguna yang lebih modern dan nyaman digunakan.
-
-- **Desain UI Modern & Konsisten**  
-  Menggunakan **Material Design** dan font khusus **Comfortaa**, tampilan aplikasi terlihat profesional, ringan, dan tetap ramah untuk semua pengguna.
-
 ---
 
 ## 📸 Cuplikan Tampilan
@@ -79,8 +73,7 @@ Unduh versi terbaru aplikasi melalui halaman [GitHub Releases](https://github.co
 - **Database**: SQLite  
 - **UI/UX**: XML + Material Components  
 - **Font**: Comfortaa  
-- **Minimal SDK**: Android 7.0 (API 24)![output-onlinepngtools (5)](https://github.com/user-attachments/assets/891ee7ac-6b8e-4d82-a663-f250d3d43176)
-
+- **Minimal SDK**: Android 7.0 (API 24)
 
 ---
 
