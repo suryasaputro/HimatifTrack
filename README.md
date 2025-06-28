@@ -21,19 +21,19 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
 ## 📸 Cuplikan Tampilan
 1. Halaman Menu Utama
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3f50be48-1542-4343-ab7f-2256affb361b"
+  <img src="https://github.com/user-attachments/assets/77e6933c-a189-4e58-8dc1-82d07efe995c"
        width="300"
        style="border-radius: 16px;" />
 </p>
 2.Halaman Input Data
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/76c9d8db-0b64-4d79-a071-24afc1a9047d"
+  <img src="https://github.com/user-attachments/assets/3f50be48-1542-4343-ab7f-2256affb361b"
        width="300"
        style="border-radius: 16px;" />
 </p>
 3. Halaman Lihat Data
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/77e6933c-a189-4e58-8dc1-82d07efe995c"
+  <img src="https://github.com/user-attachments/assets/76c9d8db-0b64-4d79-a071-24afc1a9047d"
        width="300"
        style="border-radius: 16px;" />
 </p>
