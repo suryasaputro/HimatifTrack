@@ -20,10 +20,24 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
 ---
 
 ## 📸 Cuplikan Tampilan
-![WhatsApp Image 2025-06-28 at 14 48 01_c754688c](https://github.com/user-attachments/assets/fdc4a5ac-5f02-4d39-a9d9-3b536728236f)
-
-![WhatsApp Image 2025-06-28 at 14 48 01_02bc4531](https://github.com/user-attachments/assets/5b1e47e5-09a9-41c3-a1de-7af2380bde7a)
-![WhatsApp Image 2025-06-28 at 14 48 01_4a5a771f](https://github.com/user-attachments/assets/179663e4-4d2d-4b08-8c48-c46bb4c6b849)
+1. Halaman Menu Utama
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fdc4a5ac-5f02-4d39-a9d9-3b536728236f"
+       width="300"
+       style="border-radius: 16px;" />
+</p>
+2.Halaman Input Data
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5b1e47e5-09a9-41c3-a1de-7af2380bde7a"
+       width="250"
+       style="border-radius: 12px; margin-right: 10px;" />
+</p>
+3. Halaman Lihat Data
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/179663e4-4d2d-4b08-8c48-c46bb4c6b849"
+       width="250"
+       style="border-radius: 12px;" />
+</p>
 
 ---
 
@@ -41,7 +55,7 @@ Unduh versi terbaru aplikasi melalui halaman [GitHub Releases](https://github.co
 - **Database**: SQLite  
 - **UI/UX**: XML + Material Components  
 - **Font**: Comfortaa  
-- **Minimal SDK**: Android 5.0 (API 21)
+- **Minimal SDK**: Android 7.0 (API 24)
 
 ---
 
