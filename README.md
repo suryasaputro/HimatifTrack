@@ -7,14 +7,14 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
 
 ## 🚀 Fitur Aplikasi
 
-- 📝 Input data anggota secara lengkap: Nama, NIM, Angkatan, Email, Tanggal Lahir, Jenis Kelamin, Alamat, dan Hobi
-- 🔽 Dropdown pintar untuk Angkatan & Gender
-- 📅 Date Picker untuk tanggal lahir
-- ✅ Validasi otomatis untuk input kosong dan format email
-- 💾 Penyimpanan data lokal menggunakan SQLite
-- 🔍 Fitur lihat, edit, dan hapus data anggota
-- ✨ Animasi transisi smooth & UI bergaya Material Design
-- 🧩 Menggunakan font khusus Comfortaa agar lebih friendly
+1. 📝 Input data anggota secara lengkap:
+  - Nama, NIM, Angkatan, Email, Tanggal Lahir, Jenis Kelamin, Alamat, dan Hobi
+2. 🔽 Dropdown pintar untuk Angkatan & Gender
+3. 📅 Date Picker untuk tanggal lahir
+4. ✅ Validasi otomatis untuk input kosong dan format email
+5. 💾 Penyimpanan data lokal menggunakan SQLite
+6. 🔍 Fitur lihat, edit, dan hapus data anggota
+7. ✨ Animasi transisi smooth & UI bergaya Material Design
 
 ---
 
@@ -37,6 +37,7 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
        width="300"
        style="border-radius: 16px;" />
 </p>
+
 ---
 
 ## 📦 Unduh APK
