@@ -57,10 +57,11 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
 
 - Halaman Detail 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/76c9d8db-0b64-4d79-a071-24afc1a9047d"
+  <img src="https://github.com/user-attachments/assets/b9cb00da-1c4e-4796-a0d5-fa222b34be5b"
        width="300"
        style="border-radius: 16px;" />
 </p>
+
 
 ---
 
@@ -78,7 +79,8 @@ Unduh versi terbaru aplikasi melalui halaman [GitHub Releases](https://github.co
 - **Database**: SQLite  
 - **UI/UX**: XML + Material Components  
 - **Font**: Comfortaa  
-- **Minimal SDK**: Android 7.0 (API 24)
+- **Minimal SDK**: Android 7.0 (API 24)![output-onlinepngtools (5)](https://github.com/user-attachments/assets/891ee7ac-6b8e-4d82-a663-f250d3d43176)
+
 
 ---
 
