@@ -40,18 +40,21 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
        width="300"
        style="border-radius: 16px;" />
 </p>
+
 - Halaman Input Data
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3f50be48-1542-4343-ab7f-2256affb361b"
        width="300"
        style="border-radius: 16px;" />
 </p>
+
 - Halaman Lihat Data
 <p align="center">
   <img src="https://github.com/user-attachments/assets/76c9d8db-0b64-4d79-a071-24afc1a9047d"
        width="300"
        style="border-radius: 16px;" />
 </p>
+
 - Halaman Detail 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/76c9d8db-0b64-4d79-a071-24afc1a9047d"
