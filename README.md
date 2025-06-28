@@ -62,7 +62,7 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
 ## 📦 Unduh APK
 
 Unduh versi terbaru aplikasi melalui halaman [GitHub Releases](https://github.com/suryasaputro/HimatifTrack/releases/tag/1.0.0).  
-📁 File: `HimatifTrack-v1.0-debug.apk` *(versi debug, untuk keperluan uji coba)*
+📁 File: `HimatifTrack-v1.0-debug.apk` *(versi debug)*
 
 ---
 
