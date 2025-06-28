@@ -8,10 +8,10 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
 ## 🚀 Fitur Aplikasi HimatifTrack
 
 - 📝 **Input Data Anggota Secara Lengkap**
-   Pengguna dapat mengisi formulir lengkap data anggota, mulai dari **Nama, NIM, Angkatan, Email, Tanggal Lahir, Jenis Kelamin, Hobi**, hingga **Alamat**, yang seluruhnya tertata dengan baik dan mudah diakses.
+  Pengguna dapat mengisi formulir lengkap data anggota, mulai dari **Nama, NIM, Angkatan, Email, Tanggal Lahir, Jenis Kelamin, Hobi**, hingga **Alamat**, yang seluruhnya tertata dengan baik dan mudah diakses.
 
 - 🔽 **Dropdown Pintar untuk Angkatan & Gender**
-   Menggunakan komponen **MaterialAutoCompleteTextView**, pengguna dapat memilih **angkatan** (dari tahun 2015 hingga 2025) dan **jenis kelamin** melalui dropdown yang interaktif dan responsif.
+  Menggunakan komponen **MaterialAutoCompleteTextView**, pengguna dapat memilih **angkatan** (dari tahun 2015 hingga 2025) dan **jenis kelamin** melalui dropdown yang interaktif dan responsif.
 
 - 📅 **Date Picker untuk Tanggal Lahir**
    Input tanggal lahir dilengkapi dengan komponen **DatePickerDialog** sehingga pengguna dapat memilih tanggal dengan lebih praktis dan menghindari kesalahan penulisan format.
