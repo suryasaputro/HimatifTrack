@@ -22,23 +22,22 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
 ## 📸 Cuplikan Tampilan
 1. Halaman Menu Utama
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fdc4a5ac-5f02-4d39-a9d9-3b536728236f"
+  <img src="(https://github.com/user-attachments/assets/3f50be48-1542-4343-ab7f-2256affb361b"
        width="300"
        style="border-radius: 16px;" />
 </p>
 2.Halaman Input Data
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5b1e47e5-09a9-41c3-a1de-7af2380bde7a"
-       width="250"
-       style="border-radius: 12px; margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/76c9d8db-0b64-4d79-a071-24afc1a9047d"
+       width="300"
+       style="border-radius: 16px;" />
 </p>
 3. Halaman Lihat Data
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/179663e4-4d2d-4b08-8c48-c46bb4c6b849"
+[<p align="center">
+  <img src="https://github.com/user-attachments/assets/77e6933c-a189-4e58-8dc1-82d07efe995c"
        width="250"
        style="border-radius: 12px;" />
 </p>
-
 ---
 
 ## 📦 Unduh APK
