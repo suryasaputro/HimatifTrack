@@ -7,8 +7,7 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
 
 ## 🚀 Fitur Aplikasi
 
-- 📝 Input data anggota secara lengkap:
-  - Nama, NIM, Angkatan, Email, Tanggal Lahir, Jenis Kelamin, Alamat, dan Hobi
+- 📝 Input data anggota secara lengkap: Nama, NIM, Angkatan, Email, Tanggal Lahir, Jenis Kelamin, Alamat, dan Hobi
 - 🔽 Dropdown pintar untuk Angkatan & Gender
 - 📅 Date Picker untuk tanggal lahir
 - ✅ Validasi otomatis untuk input kosong dan format email
@@ -33,9 +32,9 @@ Aplikasi ini memudahkan pendataan, pencatatan, dan pengelolaan informasi anggota
        style="border-radius: 16px;" />
 </p>
 3. Halaman Lihat Data
-[<p align="center">
+<p align="center">
   <img src="https://github.com/user-attachments/assets/77e6933c-a189-4e58-8dc1-82d07efe995c"
-       width="250"
+       width="300"
        style="border-radius: 16px;" />
 </p>
 ---
